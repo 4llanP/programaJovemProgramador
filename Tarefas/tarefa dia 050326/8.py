@@ -1,0 +1,1 @@
+#temperatura fora da faixa 20-30 graus
