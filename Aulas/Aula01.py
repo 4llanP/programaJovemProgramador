@@ -1,0 +1,1 @@
+#aprendemos sobre variaveis e sobre função input
