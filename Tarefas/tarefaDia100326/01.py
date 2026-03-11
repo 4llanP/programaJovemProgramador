@@ -1,4 +1,3 @@
-#Aprendendo a mexe no repositorio
 nome = input('Informe seu nome: ')
 peso = float(input('Informe seu peso: '))
 altura = float(input('Informe sua altura: '))
