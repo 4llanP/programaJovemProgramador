@@ -1,5 +1,4 @@
 import os
-
 def div(x, y):
     z = x/y
     return z
@@ -23,8 +22,8 @@ Aluno = {
     'Contato': input('Seu contato:')
 }
 
-
 os.system('cls')
+
 print(Aluno)
 print ("""Soma: +
 Subtração: - 

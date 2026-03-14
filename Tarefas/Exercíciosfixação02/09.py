@@ -1,3 +1,3 @@
-produto = {"nome": str, "preco": float, "quantidade": int}
-#float(), int(), input(), acesso/atribuição por chave, print()
-print('')
+produto = {"nome": input('Nome: '), "preco": float(input('Valor: ')), "quantidade": int(input('Quantidade: '))}
+#acesso/atribuição por chave, print()
+print(f'O valor {produto['preco']}, com a quantidade {produto['quantidade']}, total: {(produto['preco']*produto['quantidade'])}')
