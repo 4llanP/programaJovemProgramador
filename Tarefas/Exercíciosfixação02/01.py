@@ -1,0 +1,10 @@
+lista_compras = []
+print(lista_compras)
+lista_compras.append(input('Items para comprar: '))
+print(lista_compras)
+lista_compras.append(input('Items para comprar: '))
+print(lista_compras)
+lista_compras.append(input('Items para comprar: '))
+print(lista_compras)
+lista_compras.remove(input('Remover para comprar: '))
+print(lista_compras)

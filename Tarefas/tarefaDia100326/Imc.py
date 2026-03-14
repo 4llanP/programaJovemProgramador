@@ -1,6 +1,6 @@
 nome = input('Informe seu nome: ')
 peso = float(input('Informe seu peso: '))
-altura = float(input('Informe sua altura: '))
+altura = float(input('Informe sua altura (em metros): '))
 
 imc = peso / (altura**2)
 print(f'O IMC do {nome}: {imc:.2f}')
@@ -12,4 +12,4 @@ if (imc >= 18.5) and (imc < 25):
 if (imc >= 25) and (imc < 30):
     print('Sobrepeso')
 if imc >= 30:
-    print('Obesidade')
+    print('feliz')
