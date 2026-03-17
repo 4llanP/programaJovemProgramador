@@ -1,0 +1,5 @@
+numeros = (int(input('Valor: ')),int(input('Valor: ')),int(input('Valor: ')),int(input('Valor: ')))
+#print(sorted(numeros))
+ordem = sorted(numeros)
+print(ordem)
+print(type(ordem), type(numeros))
