@@ -1,3 +1,4 @@
+
 nome = input('Nome: ')
 nota = float(input('Nota: '))
 

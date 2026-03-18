@@ -1,6 +1,0 @@
-Para clonar o repositorio localiza pasta
-cd
-inicia o git
-git init
-e depois clona o repositorio pelo link
-git clone <link>

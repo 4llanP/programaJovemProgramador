@@ -1,13 +1,16 @@
 aluna = {'id': 1, 'nome': 'Alamo', 'nota':9.2}
 pessoa = {'nome': 'Ana', 'idade': 25}
 
+#chama
 print(f'Nome da pessoa: {pessoa['nome']}')
 
+#incrementa
 pessoa['Cidade'] = 'florianopolix'
 pessoa['idade'] = 26
 print(f'Pessoa atualizada: {pessoa}')
 
-removido = pessoa.pop('idade')
+
+removido = pessoa.pop('idade') #pega a idade e coloca em removido
 print(f'Valor removido (idade): {removido}')
 print(f'Após pop(idade): {pessoa}')
 
