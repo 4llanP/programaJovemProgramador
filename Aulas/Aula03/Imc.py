@@ -7,9 +7,9 @@ print(f'O IMC do {nome}: {imc:.2f}')
 
 if imc < 18.5:
     print('Baixo peso')
-if (imc >= 18.5) and (imc < 25):
+elif (imc >= 18.5) and (imc < 25):
     print('Normal')
-if (imc >= 25) and (imc < 30):
+elif (imc >= 25) and (imc < 30):
     print('Sobrepeso')
-if imc >= 30:
+else: 
     print('feliz')
