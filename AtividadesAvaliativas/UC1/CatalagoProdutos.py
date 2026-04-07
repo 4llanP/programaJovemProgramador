@@ -2,11 +2,13 @@ import os
 def exibe():
     print(f'Produtos: {catalogo[0][1]},{catalogo[1][1]},{catalogo[2][1]},{catalogo[3][1]},{catalogo[-1][1]}')
     print(f'Ids (ordem acima): {catalogo[0][0]},{catalogo[1][0]},{catalogo[2][0]},{catalogo[3][0]},{catalogo[-1][0]}')
+
 def procuraId(id):
     for x in catalogo:
         if x[0] == id:
             return x
     return
+
 def cadastra():
     id = int(input('Id: '))
     novoProduto = (id, input('Nome: '), float(input('Valor: ')))
@@ -14,6 +16,7 @@ def cadastra():
     estoque[str(id)] = quantidade
     catalogo.append(novoProduto)
     return
+
 def aplicaDesconto():
     x = procuraId(int(input('Aplicar desconto id: ')))
     desconto = float(input('Deconto (sem %): '))
@@ -22,6 +25,7 @@ def aplicaDesconto():
     x = (x[0],x[1], x[2]*(desconto/100))
     print(f'Valor atual: {catalogo[catalogo.index(x)][2]:.2f}')    
     return
+
 def compras(id, quantidade):
     if estoque[str(id)] >= quantidade:
         compras = (id, quantidade, procuraId(id)[2])
@@ -31,6 +35,7 @@ def compras(id, quantidade):
     else:
         print('Sem estoque suficiente')
     return
+
 def devolucao(id):
     for item in carrinho:
         if item[0] == id:
@@ -38,6 +43,7 @@ def devolucao(id):
             carrinho.pop(carrinho.index(item))
             return
     return print('Item nao esta no carrinho')
+
 catalogo = [
     (1,'arroz',15.9),
     (2,'feijao',9.5),
