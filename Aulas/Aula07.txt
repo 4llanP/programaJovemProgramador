@@ -1,0 +1,17 @@
+sgbd 
+sistema de gerenciamento de banco de dados 
+
+   
+/\__/\  
+|> x <| < BD
+<_____> Vc tem dado em casa?
+|_| |_|
+_/   \_
+
+SQL 
+-Subconjuntos:
+DQL
+DML
+DDL
+DCL
+DTL
